@@ -1,0 +1,144 @@
+
+.main1{
+    width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+.main{
+	background: linear-gradient(to bottom, black 0%, orangered 100%);
+	color:white;
+}
+.navbar{
+	background-color:black;
+	color:black;
+	padding: 5px;
+}
+.navbar ul{
+	padding: 0;
+	list-style: none;
+}
+.navbar li{
+	display: inline;
+}
+.navbar a{
+	text-decoration: none;
+	color:white;
+	font-size: 21px;
+	padding-right: 20px;
+}
+.navbar a:hover{
+	background-color: lightgreen;
+    color: black;
+    white-space: normal;
+    width: auto;
+    border: none;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    padding-right: 1em;
+    border-radius: 3em;
+}
+.section{
+	background-image: url('image1.jpg');
+background-position: center right;
+	height: 300px;
+	color:black;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.section h1{
+	font-size: 40px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+.section1{
+	float: left;
+	width:70%;
+
+}
+.sidebar1{
+	float:right;
+	width: 28%;
+	background-color: black;
+	color: white;
+}
+.footer{
+	background: linear-gradient(to bottom, orangered 0%, black 100%);
+	color:white;
+	text-align: center;
+	padding: 1px;
+	margin-top: 40px;
+}
+@media(max-width: 600px){
+	.section1{
+		width:100%;
+		float:none;
+	}
+	.sidebar1{
+		width:100%;
+		float:none;
+	}
+	.section{
+		height: 10%;
+	}
+}
+.main2{
+  margin-left:10%;
+  background: black;
+  color: white;
+  border-radius: 2em;
+  padding: 1em 2em;
+}
+.main2:hover{
+	cursor: pointer;
+}
+#top{
+	position: fixed;
+	background-color: black;
+	color: white;
+    padding: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5em;
+    display:inline-block;
+    right: 1%;
+    bottom: 6%;
+    font-weight: 700;
+    transition:all .3s ease-in-out;
+    box-shadow: 0 0 2em 0 rgba(0,0,0,0.25);
+    opacity: 0;
+   }
+#top:hover{
+	background-color: black;
+	padding:1em 3em;
+}
+#top.visible{
+	opacity: 1;
+}
+#country{
+   width: 80%;
+   height: 100%;
+   padding: 10px;
+   border-color: white;
+   font-size: 15px;
+}
+#auto{
+	list-style-type: none;
+	background-color: white;
+	line-height: 2em;
+	font-size: 20px;
+	color: dimgray;
+	font-weight: lighter;
+}
+#form{
+	line-height: 3em;
+}
+#enter{
+	overflow: hidden;
+	margin: auto;
+}
+.sidebar{
+	overflow-y: scroll;
+}
